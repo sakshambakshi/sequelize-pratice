@@ -1,0 +1,26 @@
+{
+  "name": "codegig",
+  "version": "1.0.0",
+  "description": "code gig",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "learning",
+    "squelize"
+  ],
+  "author": "saksham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-hbs": "^2.1.2",
+    "mysql2": "^1.6.5",
+    "path": "^0.12.7",
+    "sequelize": "^5.9.0",
+    "volleyball": "^1.5.1"
+  }
+}
